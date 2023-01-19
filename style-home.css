@@ -1,0 +1,43 @@
+
+#banner{
+    width: 100%;
+}
+body{
+    background-color: #CCCCCC;
+}
+
+#descripcion{
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+#callout-text{
+    color: #c78c19;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 5%;
+}
+
+#imgdif{
+    width: 55%;
+}
