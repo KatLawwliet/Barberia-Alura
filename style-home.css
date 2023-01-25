@@ -1,4 +1,8 @@
 
+body{
+    background-color: #CCCCCC;
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background-color: #CCCCCC;
     padding: 20px 0;
@@ -9,10 +13,6 @@ header{
     margin: 0 auto;
 }
 
-
-#banner{
-    width: 100%;
-}
 nav{
     position: absolute;
     top: 110px;
@@ -35,41 +35,43 @@ nav a:hover{
 }
 
 
-body{
-    background-color: #CCCCCC;
-}
-
-#descripcion{
-    text-align: center;
-    padding: 20px;
+.banner{
+    width: 100%;
 }
 
 .titulo-principal{
-    padding-left: 30px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-.titulo-centralizado{
-    text-align: center;
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.descripcion p{
+    margin: 0 0 1em;
+}
+.descripcion strong{
+    font-weight: bold;
+    color: #c78c19;
+}
+.descripcion em{
+    font-style: italic;
+}
+
+
+.imgdif{
+    width: 30%;
 }
 
 #mision{
     font-size: 20px;
 }
 
-#callout-text{
-    color: #c78c19;
-}
-
-.items{
-    font-style: italic;
-}
-
-
-
-
-#imgdif{
-    width: 55%;
-}
 
 footer{
     text-align: center;
