@@ -108,6 +108,11 @@ nav a:hover{
 
 .imgdif{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+.imgdif:hover{
+    opacity: 0.3;
 }
 
 .video {
