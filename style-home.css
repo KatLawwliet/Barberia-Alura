@@ -42,6 +42,7 @@ nav a:hover{
     background: #fefefe;
     padding: 3em 0;
     margin: 0 auto;
+    width: auto;
 }
 .titulo-principal{
     text-align: center;
@@ -120,7 +121,20 @@ nav a:hover{
     margin: 1em auto;
 }
 
-
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+   .caja,.descripcion,.mapa-contenido,.contenido-diferenciales,.video{
+    width: auto;
+    }
+    .lista-diferenciales,.imgdif{
+        width: 100%;
+    }
+}
 
 
 footer{
